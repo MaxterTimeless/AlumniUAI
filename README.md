@@ -1,4 +1,4 @@
-# AlumniUAI
+# AlumnosFIC
 
 Este repositorio contendrá todos los archivos de código que se utilizarán para el proyecto de Programación Profesional del primer semestre del año 2022. El proyecto se conecta con BitBucket y con Jira para generar un workflow activo de proyecto. 
 
