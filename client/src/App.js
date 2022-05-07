@@ -41,7 +41,8 @@ function App() {
 
  <div class="container">
  <img src='https://ingenieria.uai.cl/assets/uploads/2020/03/dsc_0062-320x260-c-default@2x.jpg'></img>
-    <button class="btn">Button</button>
+    <button class="btn">Santiago</button>
+    <button class="bn">Viña del mar</button>
     <div class="top-left">Horario de buses</div>
 
 </div>

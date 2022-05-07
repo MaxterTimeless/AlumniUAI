@@ -38,20 +38,20 @@
 }
 /* Container needed to position the button. Adjust the width as needed */
 .container {
-  position: relative;
-  width: 60%;
+  position: fixed;
+  width: 50%;
 }
 
 /* Make the image responsive */
 .container img {
-  width: 50%;
+  width: 80%;
   height: auto;
 }
 
 /* Style the button and place it in the middle of the container/image */
 .container .btn {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 20%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -63,7 +63,20 @@
   cursor: pointer;
   border-radius: 10px;
 }
-
+.container .bn {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #00adda;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: #00adda;
+  cursor: pointer;
+  border-radius: 10px;
+}
 /* Top left text */
 .top-left {
   position: absolute;
@@ -71,6 +84,10 @@
   left: 16px;
 }
 
-.container .btn:hover {
-  background-color: #0c0c0c;
+.container .btn:hover{
+  background-color: #0c0c0c00;
+}
+
+.container .bn:hover{
+  background-color: #0c0c0c00;
 }
