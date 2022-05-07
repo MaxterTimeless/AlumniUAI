@@ -41,14 +41,11 @@ function App() {
 
  <div class="container">
  <img src='https://ingenieria.uai.cl/assets/uploads/2020/03/dsc_0062-320x260-c-default@2x.jpg'></img>
-    <button class="btn">Santiago</button>
-    <button class="bn">Viña del mar</button>
-    <div class="top-left">Horario de buses</div>
+ <a href="https://www.uai.cl/campus-uai/campus-penalolen/buses-de-acercamiento-penalolen/" class="btn">Santiago</a>
+ <a href="https://www.uai.cl/campus-uai/campus-vina-del-mar/buses-de-acercamiento-vina-del-mar/" class="bn">Viña del mar</a>
+  <div class="top-left">Horario de buses</div>
 
 </div>
-
-
-
 
     </Fragment>
   );
