@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #00adda;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 60%;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 50%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #00adda;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: #00adda;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.container .btn:hover {
+  background-color: #0c0c0c;
 }

@@ -37,6 +37,18 @@ function App() {
             <a href="https://www.uai.cl" title="Universidad Adolfo Ibáñez" rel="home-uai"></a>
           </div>
         </div>
+
+
+ <div class="container">
+ <img src='https://ingenieria.uai.cl/assets/uploads/2020/03/dsc_0062-320x260-c-default@2x.jpg'></img>
+    <button class="btn">Button</button>
+    <div class="top-left">Horario de buses</div>
+
+</div>
+
+
+
+
     </Fragment>
   );
 }
