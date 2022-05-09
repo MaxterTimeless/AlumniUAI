@@ -2,6 +2,13 @@ import React, { Fragment } from "react"
 import './App.css';
 
 function App() {
+  const TopMenu = () => {
+    if(document.getElementById("Dropdown-menu").style.display == "block"){
+      document.getElementById("Dropdown-menu").style.display = "none";
+    } else {
+      document.getElementById("Dropdown-menu").style.display = "block";
+    }
+  };
   return (
     <Fragment>
         <div class="top-bar">
@@ -12,14 +19,25 @@ function App() {
                 <a href="https://alumnosfic.uai.cl/" class="Titulo">AlumnosFIC</a>
                 
               
-                <button class="navicon_js-navicon">
+                <button onClick={TopMenu} class="navicon_js-navicon">
                   <svg height="40" viewBox="0 0 24 24" width="40" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 15.5v2h20v-2H2zm0-5v2h20v-2H2zm0-5v2h20v-2H2z" class="three_lines"/>
                     <path d="M0 0h24v24H0z" fill="none"/>
                   </svg>
                 </button>
               </div>
-              
+            </div>
+            <div id="Dropdown-menu" class="dropdown-content">
+              <a href="#">Información Académica</a>
+              <a href="#">Mallas Curriculares</a>
+              <a href="#">Pregrado</a>
+              <a href="#">Quinto Año</a>
+              <a href="#">Prácticas</a>
+              <a href="#">Mecanismos de Titulación</a>
+              <a href="#">Doble Titulación</a>
+              <a href="#">Internacionalzación</a>
+              <a href="#">Acreditaciones</a>
+              <a href="#">Asuntos Estudiantiles</a>
             </div>
             <div class="top-search">
               <form action="https://ingenieria.uai.cl" method="GET" class="search-form">
@@ -38,23 +56,32 @@ function App() {
             
           </div>
         </div>
-        <footer class="footer">            <div class="third box">
-            <p><strong>SANTIAGO: <a href="tel:+56223311000">– (56 2) 2331 1000</a></strong><br />
+        <footer class="footer">            
+          <div class="third box">
+              <p><strong>SANTIAGO: <a href="tel:+56223311000">– (56 2) 2331 1000</a></strong><br />
 Diagonal las Torres 2640, Peñalolén. Edificios C, D y E.<br />
 Av. Presidente Errázuriz 3485, Las Condes.<br />
 Av. Santa María 5870, Vitacura.<br />
 <strong>VIÑA DEL MAR:</strong>  <strong>– <a href="tel:+56322503500">(56 32) 250 3500</a></strong><br />
 Padre Hurtado 750, Viña del Mar.<br />
 <a href="https://www.uai.cl/certificados-academicos/">Certificados académicos </a></p>
+          </div>
+          <div class="two-third box">
+              <div class="footer__item">
+                 <img src="https://ingenieria.uai.cl/assets/uploads/2022/03/acreditacion_2022_6_anos.png"/>
+              </div>
+          </div>
+        </footer>  
 
-        </div>
-        <div class="two-third box">
-                        <div class="footer__item">
-                <img src="https://ingenieria.uai.cl/assets/uploads/2022/03/acreditacion_2022_6_anos.png"/>
-            </div>
-                    </div>
-    </footer>  
     </Fragment>
+  );
+}
+
+function ActionLink() {
+  function handleClick(e) {    e.preventDefault();    console.log('The link was clicked.');  }
+    return (
+    <a href="#" onClick={handleClick}>      Click me
+    </a>
   );
 }
 
