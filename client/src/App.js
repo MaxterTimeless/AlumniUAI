@@ -2,6 +2,13 @@ import React, { Fragment } from "react"
 import './App.css';
 
 function App() {
+  const TopMenu = () => {
+    if(document.getElementById("Dropdown-menu").style.display == "block"){
+      document.getElementById("Dropdown-menu").style.display = "none";
+    } else {
+      document.getElementById("Dropdown-menu").style.display = "block";
+    }
+  };
   return (
     <Fragment>
         <div class="top-bar">
@@ -12,14 +19,25 @@ function App() {
                 <a href="https://alumnosfic.uai.cl/" class="Titulo">AlumnosFIC</a>
                 
               
-                <button class="navicon_js-navicon">
+                <button onClick={TopMenu} class="navicon_js-navicon">
                   <svg height="40" viewBox="0 0 24 24" width="40" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 15.5v2h20v-2H2zm0-5v2h20v-2H2zm0-5v2h20v-2H2z" class="three_lines"/>
                     <path d="M0 0h24v24H0z" fill="none"/>
                   </svg>
                 </button>
               </div>
-              
+            </div>
+            <div id="Dropdown-menu" class="dropdown-content">
+              <a href="#">Información Académica</a>
+              <a href="#">Mallas Curriculares</a>
+              <a href="#">Pregrado</a>
+              <a href="#">Quinto Año</a>
+              <a href="#">Prácticas</a>
+              <a href="#">Mecanismos de Titulación</a>
+              <a href="#">Doble Titulación</a>
+              <a href="#">Internacionalzación</a>
+              <a href="#">Acreditaciones</a>
+              <a href="#">Asuntos Estudiantiles</a>
             </div>
             <div class="top-search">
               <form action="https://ingenieria.uai.cl" method="GET" class="search-form">
@@ -37,7 +55,16 @@ function App() {
             <a href="https://www.uai.cl" title="Universidad Adolfo Ibáñez" rel="home-uai"></a>
           </div>
         </div>
+        
     </Fragment>
+  );
+}
+
+function ActionLink() {
+  function handleClick(e) {    e.preventDefault();    console.log('The link was clicked.');  }
+    return (
+    <a href="#" onClick={handleClick}>      Click me
+    </a>
   );
 }
 
