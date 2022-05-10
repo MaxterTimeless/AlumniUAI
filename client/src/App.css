@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #00adda;
 }
 
 @keyframes App-logo-spin {
@@ -37,8 +37,123 @@
   }
 }
 
+.container {
+  position: relative;
+  display: block;
+}
+
+.container img {
+  position: relative;
+  width: 100%;
+}
+
+.container .btn {
+  position: relative;
+  top: -150px;
+  right: 220px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #00adda;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: #00adda;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.container .bn {
+  position: relative;
+  top: -150px;
+  right: 110px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #00adda;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: #00adda;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+.container .btn:hover{
+  background-color: #0c0c0c00;
+}
+
+.container .bn:hover{
+  background-color: #0c0c0c00;
+}
+
+.container span{
+position: relative;
+font-size: xx-large;
+color: #ffffff;
+top: -390px;
+}
+
+
+.contenedor {
+  position: relative;
+  display: block;
+
+}
+
+.contenedor img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: -10px;
+
+  
+}
+
+.contenedor .dnt  {
+  position: relative;
+  top: -180px;
+  right: 270px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #00adda;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: #00adda;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.contenedor .dn {
+  position: relative;
+  top: -180px;
+  right: 140px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: #00adda;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: #00adda;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.contenedor .dnt:hover{
+  background-color: #0c0c0c00;
+}
+
+.contenedor .dn:hover{
+  background-color: #0c0c0c00;
+}
+
+.contenedor span{
+  position: relative;
+  font-size: xx-large;
+  color: #ffffff;
+  top: -280px;
+  }
+
+
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -112,3 +227,4 @@
 .footer__item img {
   max-width: 100%;
 }
+
