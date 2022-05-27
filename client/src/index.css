@@ -95,6 +95,10 @@ p {
   font-size: 1.125rem;
 }
 
+.dropdown-content-centros {
+  display: none;
+}
+
 .downArrow {
   position: absolute;
   left:0px;
