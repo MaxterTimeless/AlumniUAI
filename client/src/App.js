@@ -40,8 +40,8 @@ function App() {
                 <a href="#">Asuntos Estudiantiles</a>
               </div> 
               <div class="dropdown-content-2">
-                <a href="#">Facultad de Ingeniería y Ciencias</a>
-                <a href="#">Biblioteca</a>
+                <a href="https://ingenieria.uai.cl/">Facultad de Ingeniería y Ciencias</a>
+                <a href="https://bibliotecas.uai.cl/">Biblioteca</a>
                 <p class="Centros">
                   Centros
                   <button onClick={()=>Menu("Dropdown-centros")} class="downArrow">
@@ -53,14 +53,14 @@ function App() {
                 
               </div>
               <div id="Dropdown-centros" class="dropdown-content-centros">
-                <a href="#">iUAI Bio Center</a>
-                <a href="#">iUAI Built Center</a>
-                <a href="#">iUAI Complexity Center</a>
-                <a href="#">iUAI Design Engineering Center</a>
-                <a href="#">iUAI Earth Center</a>
-                <a href="#">iUAI Mining Center</a>
-                <a href="#">iUAI Systems Center</a>
-                <a href="#">iUAI Tech Center</a>
+                <a href="https://ingenieria.uai.cl/centros/bio/">iUAI Bio Center</a>
+                <a href="https://ingenieria.uai.cl/centros/built/">iUAI Built Center</a>
+                <a href="https://ingenieria.uai.cl/centros/complexity/">iUAI Complexity Center</a>
+                <a href="https://ingenieria.uai.cl/centros/dec/">iUAI Design Engineering Center</a>
+                <a href="https://ingenieria.uai.cl/centros/earth/">iUAI Earth Center</a>
+                <a href="https://ingenieria.uai.cl/centros/mining/">iUAI Mining Center</a>
+                <a href="https://ingenieria.uai.cl/centros/systems/">iUAI Systems Center</a>
+                {/* Nota: No se ha encontrado el link para Tech Center | <a href="#">iUAI Tech Center</a> */}
               </div> 
               <div class="top-search">
                 <form action="https://ingenieria.uai.cl" method="GET" class="search-form">
@@ -74,31 +74,31 @@ function App() {
         </div>
         
 
-<div>
- <div class="container">
- <img src='https://i.imgur.com/fjFJ6IH.png'></img>
- <span> Horario de buses</span>
- <a href="https://www.uai.cl/campus-uai/campus-penalolen/buses-de-acercamiento-penalolen/" class="btn">Santiago</a>
- <a href="https://www.uai.cl/campus-uai/campus-vina-del-mar/buses-de-acercamiento-vina-del-mar/" class="bn">Viña del mar</a>
-</div>
+        <div>
+          <div class="container">
+          <img src='https://i.imgur.com/fjFJ6IH.png'></img>
+          <span> Horario de buses</span>
+          <a href="https://www.uai.cl/campus-uai/campus-penalolen/buses-de-acercamiento-penalolen/" class="btn">Santiago</a>
+          <a href="https://www.uai.cl/campus-uai/campus-vina-del-mar/buses-de-acercamiento-vina-del-mar/" class="bn">Viña del mar</a>
+          </div>
 
+          <div class="contenedor">
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DnJWmBeb0MyDg4gS7Fo2V7hNShYAZcZskg&usqp=CAU'></img>
+            <span> Horario de deportes</span>
+            <a href="https://alumno.uai.cl/santiago/deportes/" class="dnt">Santiago</a>
+            <a href="https://alumno.uai.cl/vina-del-mar/deportes/" class="dn">Viña del mar</a>
+          </div>
+        </div>
 
-<div class="contenedor">
- <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DnJWmBeb0MyDg4gS7Fo2V7hNShYAZcZskg&usqp=CAU'></img>
- <span> Horario de deportes</span>
- <a href="https://alumno.uai.cl/santiago/deportes/" class="dnt">Santiago</a>
- <a href="https://alumno.uai.cl/vina-del-mar/deportes/" class="dn">Viña del mar</a>
-</div>
-</div>
         <footer class="footer">            
           <div class="third box">
               <p><strong>SANTIAGO: <a href="tel:+56223311000">– (56 2) 2331 1000</a></strong><br />
-Diagonal las Torres 2640, Peñalolén. Edificios C, D y E.<br />
-Av. Presidente Errázuriz 3485, Las Condes.<br />
-Av. Santa María 5870, Vitacura.<br />
-<strong>VIÑA DEL MAR:</strong>  <strong>– <a href="tel:+56322503500">(56 32) 250 3500</a></strong><br />
-Padre Hurtado 750, Viña del Mar.<br />
-<a href="https://www.uai.cl/certificados-academicos/">Certificados académicos </a></p>
+              Diagonal las Torres 2640, Peñalolén. Edificios C, D y E.<br />
+              Av. Presidente Errázuriz 3485, Las Condes.<br />
+              Av. Santa María 5870, Vitacura.<br />
+              <strong>VIÑA DEL MAR:</strong>  <strong>– <a href="tel:+56322503500">(56 32) 250 3500</a></strong><br />
+              Padre Hurtado 750, Viña del Mar.<br />
+              <a href="https://www.uai.cl/certificados-academicos/">Certificados académicos </a></p>
           </div>
           <div class="two-third box">
               <div class="footer__item">
