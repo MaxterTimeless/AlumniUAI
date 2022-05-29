@@ -1,5 +1,8 @@
-import React, { Fragment } from "react"
+import React, { Fragment } from "react";
+import {useState} from "react";
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Dropdown, DropdownItem,DropdownMenu,DropdownToggle} from 'reactstrap';
 
 function App() {
   const Menu = (dis) => {
@@ -9,6 +12,13 @@ function App() {
       document.getElementById(dis).style.display = "block";
     }
   };
+
+  //Funciónes para el dropdown del container calendario
+  const [dropdown, setDropdown] = useState(false);
+  const abrirCerrarDropdown=()=>{
+    setDropdown(!dropdown);
+  }
+
   return (
     <Fragment>
         <div class="top-bar">
@@ -73,7 +83,6 @@ function App() {
           </div>
         </div>
         
-
         <div>
           <div class="container">
           <img src='https://i.imgur.com/fjFJ6IH.png'></img>
@@ -89,6 +98,33 @@ function App() {
             <a href="https://alumno.uai.cl/vina-del-mar/deportes/" class="dn">Viña del mar</a>
           </div>
         </div>
+
+    <div class = "container-calendario">
+      <div class = "text-container">  
+        <h3>
+            Calendario
+        </h3>
+        <hr></hr>
+          <div class = "group-buttons"> 
+            <div class="contenido-botones">
+              <div className="App">
+              <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown} direction="down">
+                <DropdownToggle caret className="botonDropdown">
+                  Ver más
+                </DropdownToggle>
+                <DropdownMenu className="opciones">
+                  <DropdownItem id="item-1" href="https://alumnosfic.uai.cl/pregrado/calendario-academico/">Calendario Académico Pregado</DropdownItem> 
+                  <DropdownItem id="item-2" href="https://alumnosfic.uai.cl/pregrado/calendario-de-pruebas-y-examenes/">Calendario de Exámenes y Pruebas Pregrado</DropdownItem>
+                  <DropdownItem id="item-3" href="https://alumnosfic.uai.cl/quinto-ano/calendario-academico/">Calendario Académico Quinto Año</DropdownItem>
+                  <DropdownItem id="item-4" href="https://alumnosfic.uai.cl/quinto-ano/calendario-academico/">Calendario de Exámenes y Pruebas Quinto Año</DropdownItem>
+                </DropdownMenu>
+              </Dropdown>   
+              <a class="actividades-fic" href="https://ingenieria.uai.cl/">Actividades FIC</a>
+              </div>
+            </div>
+         </div>	
+        </div>
+    </div>
 
         <footer class="footer">            
           <div class="third box">
@@ -106,8 +142,6 @@ function App() {
               </div>
           </div>
         </footer>  
-
-
     </Fragment>
   );
 }
