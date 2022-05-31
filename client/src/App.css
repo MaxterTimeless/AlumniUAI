@@ -228,3 +228,44 @@ top: -390px;
   max-width: 100%;
 }
 
+#pregrado {
+  float:left; 
+  background:#f4f4f4;
+  width:50%;
+  height:280px;
+  color: #00adda;
+  font-size: 60%;
+
+}
+
+#quinto-año {
+  float:left; 
+  background:#f4f4f4;
+  width:50%;
+  height:280px;
+  color: #00adda;
+  font-size: 60%;
+
+}
+
+#practica {
+  float:left; 
+  background:#f4f4f4;
+  width:50%;
+  height:280px;
+  color: #00adda;
+  font-size: 60%;
+
+}
+
+
+
+#titulacion {
+  float:left; 
+  background:#f4f4f4;
+  width:50%;
+  height:280px;
+  color: #00adda;
+  font-size: 60%;
+
+}

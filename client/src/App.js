@@ -74,20 +74,66 @@ function App() {
         </div>
         
 
-        <div>
-          <div class="container">
-          <img src='https://i.imgur.com/fjFJ6IH.png'></img>
-          <span> Horario de buses</span>
-          <a href="https://www.uai.cl/campus-uai/campus-penalolen/buses-de-acercamiento-penalolen/" class="btn">Santiago</a>
-          <a href="https://www.uai.cl/campus-uai/campus-vina-del-mar/buses-de-acercamiento-vina-del-mar/" class="bn">Viña del mar</a>
-          </div>
+        <div class= "box" id = "boxes">
+              
+            
 
-          <div class="contenedor">
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DnJWmBeb0MyDg4gS7Fo2V7hNShYAZcZskg&usqp=CAU'></img>
-            <span> Horario de deportes</span>
-            <a href="https://alumno.uai.cl/santiago/deportes/" class="dnt">Santiago</a>
-            <a href="https://alumno.uai.cl/vina-del-mar/deportes/" class="dn">Viña del mar</a>
-          </div>
+            <div id = "pregrado">
+            <h2>Pregrado</h2>
+            <div class="menu-pregrado">
+            <ul class="menu">
+              <li  > <a href="https://alumnosfic.uai.cl/pregrado/reglamentos/">Reglamentos</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/pregrado/normativa-interna-uai/">Normativa Interna UAI</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/pregrado/calendario-academico/">Calendario Académico</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/pregrado/calendario-de-pruebas-y-examenes/">Calendario de Pruebas y Exámenes</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/pregrado/minor/">Minor</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/pregrado/coordinacion/">Coordinación Pregrado</a></li>
+              <li ><a href="https://alumnosfic.uai.cl/pregrado/preguntas-frecuentes/">Preguntas Frecuentes</a></li>
+            </ul>
+            </div>
+            </div>   
+             
+            <div id = "quinto-año">
+            <h2>Quinto año</h2>
+            <div class="menu-quinto">
+            <ul class="menu">
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/reglamentos/">Reglamentos</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/normativa-interna-uai/">Normativa Interna UAI</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/calendario-academico/">Calendario Académico</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/calendario-de-pruebas-y-examenes/">Calendario de Pruebas y Exámenes</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/ingreso/">Ingreso a Quinto Año</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/optativos-profesionales/">Optativos Profesionales</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/menciones/">Menciones</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/titulacion/">Condiciones Egreso / Titulación</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/coordinacion/">Coordinación Quinto Año</a></li>
+              <li  ><a href="https://alumnosfic.uai.cl/quinto-ano/preguntas-frecuentes/">Preguntas Frecuentes</a></li>
+            </ul>
+            </div>
+            </div>
+
+
+
+            <div id = "practica">
+            <h2>Pregrado</h2>
+            <div class="menu-practica">
+            <ul class="menu">
+             <li  ><a href="https://alumnosfic.uai.cl/practicas/procedimientos-practica/">Procedimientos</a></li>
+              <li  > <a href="https://alumnosfic.uai.cl/practicas/reglamentos-practica/">Reglamentos</a></li>
+              <li ><a href="https://alumnosfic.uai.cl/practicas/preguntas-frecuentes-practica/">Preguntas Frecuentes</a></li>
+            </ul>
+            </div>
+            </div> 
+            
+            <div id = "titulacion">
+            <h2>Pregrado</h2>
+            <div class="menu-tit ">
+            <ul class="menu">
+             <li  ><a href="https://alumnosfic.uai.cl/mecanismos-de-titulacion/procedimientos-capstone-project/">Procedimiento Startup-School</a></li>
+              <li  > <a href="https://alumnosfic.uai.cl/mecanismos-de-titulacion/procedimientos-pasantias/">Pasantías</a></li>
+              <li ><a href="https://alumnosfic.uai.cl/mecanismos-de-titulacion/articulacion-con-magister/">Magíster</a></li>
+            </ul>
+            </div>
+            </div> 
         </div>
 
         <footer class="footer">            
