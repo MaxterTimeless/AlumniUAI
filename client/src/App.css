@@ -105,8 +105,6 @@ top: -390px;
   width: 100%;
   height: auto;
   top: -10px;
-
-  
 }
 
 .contenedor .dnt  {
@@ -123,6 +121,7 @@ top: -390px;
   cursor: pointer;
   border-radius: 10px;
 }
+
 .contenedor .dn {
   position: relative;
   top: -180px;
