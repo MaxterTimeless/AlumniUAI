@@ -82,21 +82,27 @@ function App() {
             
           </div>
         </div>
-        
-        <div>
-          <div class="container">
-          <img src='https://i.imgur.com/fjFJ6IH.png'></img>
-          <span> Horario de buses</span>
-          <a href="https://www.uai.cl/campus-uai/campus-penalolen/buses-de-acercamiento-penalolen/" class="btn">Santiago</a>
-          <a href="https://www.uai.cl/campus-uai/campus-vina-del-mar/buses-de-acercamiento-vina-del-mar/" class="bn">Viña del mar</a>
-          </div>
+       
 
-          <div class="contenedor">
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0DnJWmBeb0MyDg4gS7Fo2V7hNShYAZcZskg&usqp=CAU'></img>
-            <span> Horario de deportes</span>
-            <a href="https://alumno.uai.cl/santiago/deportes/" class="dnt">Santiago</a>
-            <a href="https://alumno.uai.cl/vina-del-mar/deportes/" class="dn">Viña del mar</a>
-          </div>
+        <div id = "boxes">
+              
+            <div id = "leftbox">
+            <h2>Horario de deportes:</h2>
+            <div class = "buttons">
+            <a href="https://alumno.uai.cl/santiago/deportes/" class="apat">Santiago</a>
+            <a href="https://alumno.uai.cl/vina-del-mar/deportes/" class="apa">Viña del mar</a>
+            </div>
+            </div> 
+
+              
+            <div id = "rightbox">
+                <h2>Horario de buses:</h2>
+                <div class = "buttons">
+                <a href="https://www.uai.cl/campus-uai/campus-penalolen/buses-de-acercamiento-penalolen/" class="simpt">Santiago</a>
+          <a href="https://www.uai.cl/campus-uai/campus-vina-del-mar/buses-de-acercamiento-vina-del-mar/" class="simp">Viña del mar</a>
+                </div>
+
+            </div>
         </div>
 
     <div class = "container-calendario">

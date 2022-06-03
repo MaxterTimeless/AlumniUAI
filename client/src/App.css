@@ -37,112 +37,91 @@
   }
 }
 
-.container {
-  position: relative;
-  display: block;
+
+
+
+#leftbox {
+  float:left; 
+  background:#f4f4f4;
+  width:50%;
+  height:280px;
+  border: #00adda;
 }
 
-.container img {
-  position: relative;
-  margin: 0;
-  width: 100%;
+#rightbox{
+  float:right;
+  background:#f4f4f4;
+  width:50%;
+  height:280px;
 }
 
-.container .btn {
+
+.buttons{
+      text-align: center;
+}
+
+
+
+.buttons .apat{
   position: relative;
-  top: -150px;
-  right: 220px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  top: 60px;
+  left: 50px;
   background-color: #ffffff;
   color: #00adda;
-  font-size: 16px;
+  font-size: 60%;
   padding: 12px 24px;
   border: #00adda;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 25%;
+
 }
-.container .bn {
+
+.buttons .apa {
   position: relative;
-  top: -150px;
-  right: 110px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  bottom: -10px;
+  left: -45px;
   background-color: #ffffff;
   color: #00adda;
-  font-size: 16px;
+  font-size: 60%;
   padding: 12px 24px;
   border: #00adda;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 25%;
+
 }
 
 
-.container .btn:hover{
-  background-color: #0c0c0c00;
-}
-
-.container .bn:hover{
-  background-color: #0c0c0c00;
-}
-
-.container span{
-position: relative;
-font-size: xx-large;
-color: #ffffff;
-top: -390px;
-}
-
-
-.contenedor {
+.buttons .simpt{
   position: relative;
-  display: block;
-
-}
-
-.contenedor img {
-  position: relative;
-  width: 100%;
-  height: auto;
-  top: -10px;
-}
-
-.contenedor .dnt  {
-  position: relative;
-  top: -180px;
-  right: 270px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  top: 60px;
+  left: 50px;
   background-color: #ffffff;
   color: #00adda;
-  font-size: 16px;
+  font-size: 60%;
   padding: 12px 24px;
   border: #00adda;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 25%;
+
 }
 
-.contenedor .dn {
+.buttons .simp{
   position: relative;
-  top: -180px;
-  right: 140px;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  bottom: -10px;
+  left: -45px;
   background-color: #ffffff;
   color: #00adda;
-  font-size: 16px;
+  font-size: 60%;
   padding: 12px 24px;
   border: #00adda;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 25%;
+
 }
 
-.contenedor .dnt:hover{
-  background-color: #0c0c0c00;
-}
-
-.contenedor .dn:hover{
-  background-color: #0c0c0c00;
+h2{
+  color:black;
+  text-align:center;
 }
 
 .contenedor span{
@@ -264,6 +243,7 @@ hr{
 }
 
  /*CSS para el footer*/
+
 .footer {
   left: 0;
   bottom: 0;
