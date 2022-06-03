@@ -1,5 +1,8 @@
-import React, { Fragment } from "react"
+import React, { Fragment } from "react";
+import {useState} from "react";
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Dropdown, DropdownItem,DropdownMenu,DropdownToggle} from 'reactstrap';
 
 function App() {
   const Menu = (dis) => {
@@ -9,6 +12,13 @@ function App() {
       document.getElementById(dis).style.display = "block";
     }
   };
+
+  //Funciónes para el dropdown del container calendario
+  const [dropdown, setDropdown] = useState(false);
+  const abrirCerrarDropdown=()=>{
+    setDropdown(!dropdown);
+  }
+
   return (
     <Fragment>
         <div class="top-bar">
@@ -42,14 +52,14 @@ function App() {
               <div class="dropdown-content-2">
                 <a href="https://ingenieria.uai.cl/">Facultad de Ingeniería y Ciencias</a>
                 <a href="https://bibliotecas.uai.cl/">Biblioteca</a>
-                <p class="Centros">
+                <div class="container_centros">
                   Centros
                   <button onClick={()=>Menu("Dropdown-centros")} class="downArrow">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" transform="rotate(90)">
                       <path fill="#dcdcdc" d="M6.4,19.3l7.3-7.3L6.4,4.7l2.3-2.3l9.6,9.6l-9.6,9.6L6.4,19.3z"></path>
                     </svg>
                   </button>
-                </p>
+                </div>
                 
               </div>
               <div id="Dropdown-centros" class="dropdown-content-centros">
@@ -72,9 +82,7 @@ function App() {
             
           </div>
         </div>
-        
-
-    
+       
 
         <div id = "boxes">
               
@@ -97,6 +105,33 @@ function App() {
             </div>
         </div>
 
+    <div class = "container-calendario">
+      <div class = "text-container">  
+        <h3>
+            Calendario
+        </h3>
+        <hr></hr>
+          <div class = "group-buttons"> 
+            <div class="contenido-botones">
+              <div className="App">
+              <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown} direction="down">
+                <DropdownToggle caret className="botonDropdown">
+                  Ver más
+                </DropdownToggle>
+                <DropdownMenu className="opciones">
+                  <DropdownItem id="item-1" href="https://alumnosfic.uai.cl/pregrado/calendario-academico/">Calendario Académico Pregado</DropdownItem> 
+                  <DropdownItem id="item-2" href="https://alumnosfic.uai.cl/pregrado/calendario-de-pruebas-y-examenes/">Calendario de Exámenes y Pruebas Pregrado</DropdownItem>
+                  <DropdownItem id="item-3" href="https://alumnosfic.uai.cl/quinto-ano/calendario-academico/">Calendario Académico Quinto Año</DropdownItem>
+                  <DropdownItem id="item-4" href="https://alumnosfic.uai.cl/quinto-ano/calendario-academico/">Calendario de Exámenes y Pruebas Quinto Año</DropdownItem>
+                </DropdownMenu>
+              </Dropdown>   
+              <a class="actividades-fic" href="https://ingenieria.uai.cl/">Actividades FIC</a>
+              </div>
+            </div>
+         </div>	
+        </div>
+    </div>
+
         <footer class="footer">            
           <div class="third box">
               <p><strong>SANTIAGO: <a href="tel:+56223311000">– (56 2) 2331 1000</a></strong><br />
@@ -113,8 +148,6 @@ function App() {
               </div>
           </div>
         </footer>  
-
-
     </Fragment>
   );
 }
