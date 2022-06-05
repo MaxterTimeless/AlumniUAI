@@ -40,24 +40,26 @@
 
 
 
-#leftbox {
-  float:left; 
+.leftbox {
+  display: inline-block;
+  padding: 30px 20px;
   background:#f4f4f4;
   width:50%;
-  height:280px;
-  border: #00adda;
+  height:200px;
+  border-right: 1px solid #00adda;
 }
 
-#rightbox{
-  float:right;
+.rightbox{
+  display: inline-block;
+  padding: 30px 20px;
   background:#f4f4f4;
   width:50%;
-  height:280px;
+  height:200px;
 }
 
 
 .buttons{
-      text-align: center;
+  text-align: center;
 }
 
 
@@ -68,26 +70,26 @@
   left: 50px;
   background-color: #ffffff;
   color: #00adda;
-  font-size: 60%;
+  font-size: 70%;
   padding: 12px 24px;
   border: #00adda;
   cursor: pointer;
   border-radius: 25%;
-
+  text-decoration: none;
 }
 
 .buttons .apa {
   position: relative;
   bottom: -10px;
-  left: -45px;
+  left: -55px;
   background-color: #ffffff;
   color: #00adda;
-  font-size: 60%;
+  font-size: 70%;
   padding: 12px 24px;
   border: #00adda;
   cursor: pointer;
   border-radius: 25%;
-
+  text-decoration: none;
 }
 
 
@@ -97,26 +99,26 @@
   left: 50px;
   background-color: #ffffff;
   color: #00adda;
-  font-size: 60%;
+  font-size: 70%;
   padding: 12px 24px;
   border: #00adda;
   cursor: pointer;
   border-radius: 25%;
-
+  text-decoration: none;
 }
 
 .buttons .simp{
   position: relative;
   bottom: -10px;
-  left: -45px;
+  left: -55px;
   background-color: #ffffff;
   color: #00adda;
-  font-size: 60%;
+  font-size: 70%;
   padding: 12px 24px;
   border: #00adda;
   cursor: pointer;
   border-radius: 25%;
-
+  text-decoration: none;
 }
 
 h2{

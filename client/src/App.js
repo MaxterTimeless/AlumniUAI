@@ -86,7 +86,7 @@ function App() {
 
         <div id = "boxes">
               
-            <div id = "leftbox">
+            <div class = "leftbox">
             <h2>Horario de deportes:</h2>
             <div class = "buttons">
             <a href="https://alumno.uai.cl/santiago/deportes/" class="apat">Santiago</a>
@@ -95,7 +95,7 @@ function App() {
             </div> 
 
               
-            <div id = "rightbox">
+            <div class = "rightbox">
                 <h2>Horario de buses:</h2>
                 <div class = "buttons">
                 <a href="https://www.uai.cl/campus-uai/campus-penalolen/buses-de-acercamiento-penalolen/" class="simpt">Santiago</a>
