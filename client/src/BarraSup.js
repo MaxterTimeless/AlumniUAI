@@ -42,14 +42,14 @@ function BarraSup() {
             <div class="dropdown-content-2">
               <a href="https://ingenieria.uai.cl/">Facultad de Ingeniería y Ciencias</a>
               <a href="https://bibliotecas.uai.cl/">Biblioteca</a>
-              <p class="Centros">
+              <div class="Centros">
                 Centros
                 <button onClick={()=>Menu("Dropdown-centros")} class="downArrow">
                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" transform="rotate(90)">
                     <path fill="#dcdcdc" d="M6.4,19.3l7.3-7.3L6.4,4.7l2.3-2.3l9.6,9.6l-9.6,9.6L6.4,19.3z"></path>
                   </svg>
                 </button>
-              </p>
+              </div>
               
             </div>
             <div id="Dropdown-centros" class="dropdown-content-centros">
