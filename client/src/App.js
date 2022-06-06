@@ -114,7 +114,7 @@ function App() {
 
 
             <div id = "practica">
-            <h2>Pregrado</h2>
+            <h2>Prácticas</h2>
             <div class="menu-practica">
             <ul class="menu">
              <li  ><a href="https://alumnosfic.uai.cl/practicas/procedimientos-practica/">Procedimientos</a></li>
@@ -125,7 +125,7 @@ function App() {
             </div> 
             
             <div id = "titulacion">
-            <h2>Pregrado</h2>
+            <h2>Mecanismos de Titulación</h2>
             <div class="menu-tit ">
             <ul class="menu">
              <li  ><a href="https://alumnosfic.uai.cl/mecanismos-de-titulacion/procedimientos-capstone-project/">Procedimiento Startup-School</a></li>

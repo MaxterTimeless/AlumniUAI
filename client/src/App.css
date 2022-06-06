@@ -269,3 +269,19 @@ top: -390px;
   font-size: 60%;
 
 }
+
+.box a:link {
+  color: black;
+}
+
+.box a:visited {
+  color: black;
+}
+
+.box a:hover {
+  color: #00adda;
+}
+
+.box a:active {
+  color: black;
+}
