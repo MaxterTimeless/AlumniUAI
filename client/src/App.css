@@ -228,60 +228,72 @@ top: -390px;
   max-width: 100%;
 }
 
-#pregrado {
-  float:left; 
-  background:#f4f4f4;
-  width:50%;
-  height:280px;
+.theme_boxes {
   color: #00adda;
-  font-size: 60%;
+  font-size: 83%;
+  background:#f4f4f4;
+}
 
+#pregrado {
+  display: block;
+  position: absolute;
+  width:40%;
+  padding: 3% 5%;
+  height:270px;
+  margin-left: -1px;
+  border-bottom: 1px solid #00adda;
 }
 
 #quinto-año {
-  float:left; 
-  background:#f4f4f4;
-  width:50%;
-  height:280px;
-  color: #00adda;
-  font-size: 60%;
-
+  display: inline-block;
+  position: relative;
+  width:40%;
+  padding: 3% 5%;
+  left: 50%;
+  height:270px;
+  margin-left: -1px;
+  border-bottom: 1px solid #00adda;
+  border-left: 1px solid #00adda;
 }
 
 #practica {
-  float:left; 
-  background:#f4f4f4;
-  width:50%;
-  height:280px;
-  color: #00adda;
-  font-size: 60%;
-
+  display: block;
+  position: absolute;
+  width:40%;
+  padding: 2% 5%;
+  height:160px;
 }
-
-
 
 #titulacion {
-  float:left; 
-  background:#f4f4f4;
-  width:50%;
-  height:280px;
-  color: #00adda;
-  font-size: 60%;
-
+  display: inline-block;
+  position: relative;
+  width:40%;
+  padding: 2% 5%;
+  margin-left: -1px;
+  left: 50%;
+  height:160px;
+  border-left: 1px solid #00adda;
 }
 
-.box a:link {
+.theme_boxes a{
+  text-decoration:none;
+  display: block;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+.theme_boxes a:link {
   color: black;
 }
 
-.box a:visited {
+.theme_boxes a:visited {
   color: black;
 }
 
-.box a:hover {
+.theme_boxes a:hover {
   color: #00adda;
 }
 
-.box a:active {
+.theme_boxes a:active {
   color: black;
 }
