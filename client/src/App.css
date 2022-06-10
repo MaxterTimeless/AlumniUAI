@@ -90,7 +90,86 @@ h2{
   font-size: xx-large;
   color: #ffffff;
   top: -280px;
-  }
+}
+
+
+.theme_boxes {
+  color: #00adda;
+  font-size: small;
+  font-size: 2.5vw;
+  padding: 20px 0px 40px 0px;
+  font-family: "Bitter", serif !important;
+}
+
+.top-row{
+  display: block;
+  background:#f4f4f4;
+  height:320px;
+  border-bottom: 1px solid #00adda;
+}
+
+.bottom-row{
+  display: block;
+  background:#f4f4f4;
+  height:200px;
+}
+
+.pregrado {
+  float:left;
+  width:50%;
+  height:320px;
+  padding: 30px 20px 10px 30px;
+  margin-left: -1px;
+}
+
+.quinto-año {
+  float:left;
+  width:50%;
+  height:320px;
+  padding: 10px 20px 10px 30px;
+  margin-left: -1px;
+  border-left: 1px solid #00adda;
+}
+
+.practica {
+  float:left;
+  width:50%;
+  height:200px;
+  padding: 30px 20px 10px 30px;
+  margin-left: -1px;
+}
+
+.titulacion {
+  float:left;
+  width:50%;
+  height:200px;
+  padding: 10px 20px 10px 30px;
+  margin-left: -1px;
+  border-left: 1px solid #00adda;
+}
+
+.theme_boxes a{
+  text-decoration:none;
+  display: block;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+.theme_boxes a:link {
+  color: black;
+}
+
+.theme_boxes a:visited {
+  color: black;
+}
+
+.theme_boxes a:hover {
+  color: #00adda;
+}
+
+.theme_boxes a:active {
+  color: black;
+}
 
 /*CSS para el apartado del calendario, dropdown y boton "Actividades FIC"*/
 /*La imagen de fondo*/
