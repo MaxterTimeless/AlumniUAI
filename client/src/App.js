@@ -7,6 +7,7 @@ import {Dropdown, DropdownItem,DropdownMenu,DropdownToggle} from 'reactstrap';
 
 function App() {
   //Funciónes para el dropdown del container calendario
+  //Simplemente abre y cierra el dropdown al momento de hacer click en el
   const [dropdown, setDropdown] = useState(false);
   const abrirCerrarDropdown=()=>{
     setDropdown(!dropdown);
@@ -99,32 +100,36 @@ function App() {
             </div>
         </div>
 
-        <div class = "container-calendario">
-          <div class = "text-container">  
-            <h3>
-                Calendario
-            </h3>
-            <hr></hr>
-              <div class = "group-buttons"> 
-                <div class="contenido-botones">
-                  <div className="App">
-                  <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown} direction="down">
-                    <DropdownToggle caret className="botonDropdown">
-                      Ver más
-                    </DropdownToggle>
-                    <DropdownMenu className="opciones">
-                      <DropdownItem id="item-1" href="https://alumnosfic.uai.cl/pregrado/calendario-academico/">Calendario Académico Pregado</DropdownItem> 
-                      <DropdownItem id="item-2" href="https://alumnosfic.uai.cl/pregrado/calendario-de-pruebas-y-examenes/">Calendario de Exámenes y Pruebas Pregrado</DropdownItem>
-                      <DropdownItem id="item-3" href="https://alumnosfic.uai.cl/quinto-ano/calendario-academico/">Calendario Académico Quinto Año</DropdownItem>
-                      <DropdownItem id="item-4" href="https://alumnosfic.uai.cl/quinto-ano/calendario-academico/">Calendario de Exámenes y Pruebas Quinto Año</DropdownItem>
-                    </DropdownMenu>
-                  </Dropdown>   
-                  <a class="actividades-fic" href="https://ingenieria.uai.cl/">Actividades FIC</a>
-                  </div>
-                </div>
-            </div>	
+    {/*Botón Dropdown realizado con bootstrap*/}
+    <div class = "container-calendario">
+      <div class = "text-container">  
+        <h3>
+            Calendario
+        </h3>
+        <hr></hr>
+          <div class = "group-buttons"> 
+            <div class="contenido-botones">
+              <div className="App">
+              {/*Uso de las funciones para el funcionamiento del Dropdown */}
+              <Dropdown isOpen={dropdown} toggle={abrirCerrarDropdown} direction="down">
+                <DropdownToggle caret className="botonDropdown">
+                  Ver más
+                </DropdownToggle>
+                {/*Se declaran los items del Dropdown, las cuales deben linkear a distintas páginas de AlumnosFIC */}
+                <DropdownMenu className="opciones">
+                  <DropdownItem id="item-1" href="https://alumnosfic.uai.cl/pregrado/calendario-academico/">Calendario Académico Pregado</DropdownItem> 
+                  <DropdownItem id="item-2" href="https://alumnosfic.uai.cl/pregrado/calendario-de-pruebas-y-examenes/">Calendario de Exámenes y Pruebas Pregrado</DropdownItem>
+                  <DropdownItem id="item-3" href="https://alumnosfic.uai.cl/quinto-ano/calendario-academico/">Calendario Académico Quinto Año</DropdownItem>
+                  <DropdownItem id="item-4" href="https://alumnosfic.uai.cl/quinto-ano/calendario-academico/">Calendario de Exámenes y Pruebas Quinto Año</DropdownItem>
+                </DropdownMenu>
+              </Dropdown>   
+              {/*El anchor debe redireccionar a la página oficial de ingeniera de la universidad */}
+              <a class="actividades-fic" href="https://ingenieria.uai.cl/">Actividades FIC</a>
+              </div>
             </div>
         </div>
+      </div>
+    </div>
     </Fragment>
   );
 }
