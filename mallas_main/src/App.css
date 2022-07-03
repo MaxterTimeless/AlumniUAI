@@ -2,6 +2,48 @@
   text-align: center;
 }
 
+/*
+Estilo para el texto de los botones y el nombre de las ingenierias
+*/
+
+.Ingenierias{
+  color: black;
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-family: "Bitter", serif;
+}
+
+.Ingenierias .text-container{
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 10px;
+}
+
+hr{
+  position: relative;
+  bottom: 10px;
+  width: 44px !important;
+  height: 4px !important;
+  background-color: #00adda !important;
+  opacity: 1 !important;
+  left: 50% !important;
+  margin-left: -22px !important;
+}
+
+.Año-ingreso{
+  color: #00adda;
+  background-color: white;
+  border-color: #00adda;
+  border: 1px;
+  width: 100%;
+  margin-left: 5%;
+  margin-bottom: 5;
+  margin-top: 0;
+}
+
+
 
 
 .App-link {
