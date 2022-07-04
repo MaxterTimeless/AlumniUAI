@@ -3,6 +3,15 @@ import './App.css';
 function App() {
   return (
     <div class = "general-content">
+      {/*Tema de la página*/}
+      <div class = "Tema">
+        <div class = "text-container">
+          <h3>
+            Mallas Curriculares
+          </h3>
+          <hr></hr>
+        </div>
+      </div>
       {/*Mallas curriculares de Bio*/}
       <div class = "Ingenierias">
         <div class = "text-container">
@@ -399,8 +408,6 @@ function App() {
           </div>    
         </a>
       </div>
-
-
     </div>
   );
 }
