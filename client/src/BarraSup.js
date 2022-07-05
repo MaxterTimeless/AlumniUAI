@@ -16,7 +16,7 @@ function BarraSup() {
           <div class="menu-bar">
             <div class="nav-top">
               
-              <a href="https://alumnosfic.uai.cl/" class="Titulo">AlumnosFIC</a>
+              <a href="http://localhost:3001/" class="Titulo">AlumnosFIC</a>
               
               <button onClick={()=>Menu("Dropdown-menu")} class="navicon_js-navicon">
                 <svg height="40" viewBox="0 0 24 24" width="40" xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +29,7 @@ function BarraSup() {
           <div id="Dropdown-menu" class="dropdown-content">
             <div class="dropdown-content-1">
               <a href="#">Información Académica</a>
-              <a href="#">Mallas Curriculares</a>
+              <a href="http://localhost:3000/?gtm_debug=1656972864503">Mallas Curriculares</a>
               <a href="#">Pregrado</a>
               <a href="#">Quinto Año</a>
               <a href="#">Prácticas</a>
