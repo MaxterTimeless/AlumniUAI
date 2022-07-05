@@ -22,7 +22,7 @@
 }
 
 
-
+/*css botones de horario de deportes santiago*/
 .buttons .apat{
   position: relative;
   top: 60px;
@@ -36,7 +36,7 @@
   border-radius: 25%;
   text-decoration: none;
 }
-
+/*css botones de horario de deportes viña*/
 .buttons .apa {
   position: relative;
   bottom: -10px;
@@ -51,7 +51,7 @@
   text-decoration: none;
 }
 
-
+/*css botones de horario de buses santiago */
 .buttons .simpt{
   position: relative;
   top: 60px;
@@ -65,7 +65,7 @@
   border-radius: 25%;
   text-decoration: none;
 }
-
+/*css botone de horario de buses viña*/
 .buttons .simp{
   position: relative;
   bottom: -10px;

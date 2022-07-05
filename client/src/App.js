@@ -80,7 +80,7 @@ function App() {
           </div>
         </div>
         <div id = "boxes">
-              
+             {/*botones de horario de deportes santiago y viña*/}  
             <div class = "leftbox">
             <h2>Horario de deportes:</h2>
             <div class = "buttons">
@@ -91,6 +91,7 @@ function App() {
 
               
             <div class = "rightbox">
+              {/*botones de horario de buses santiago y viña*/}
                 <h2>Horario de buses:</h2>
                 <div class = "buttons">
                 <a href="https://www.uai.cl/campus-uai/campus-penalolen/buses-de-acercamiento-penalolen/" class="simpt">Santiago</a>
