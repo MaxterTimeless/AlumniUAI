@@ -6,6 +6,7 @@ import BarraSup from './BarraSup';
 import './BarraSup.css';
 import Footer from './Footer';
 import './Footer.css';
+import TagManager from 'react-gtm-module'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,12 @@ root.render(
     <Footer />
   </React.StrictMode>
 );
+
+const tagManagerArgs = {
+  gtmId: 'GTM-KV3KQ6J'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
