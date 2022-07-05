@@ -22,7 +22,7 @@
 }
 
 
-
+/*css botones de horario de deportes santiago*/
 .buttons .apat{
   position: relative;
   top: 60px;
@@ -36,7 +36,7 @@
   border-radius: 25%;
   text-decoration: none;
 }
-
+/*css botones de horario de deportes viña*/
 .buttons .apa {
   position: relative;
   bottom: -10px;
@@ -51,7 +51,7 @@
   text-decoration: none;
 }
 
-
+/*css botones de horario de buses santiago */
 .buttons .simpt{
   position: relative;
   top: 60px;
@@ -65,7 +65,7 @@
   border-radius: 25%;
   text-decoration: none;
 }
-
+/*css botone de horario de buses viña*/
 .buttons .simp{
   position: relative;
   bottom: -10px;
@@ -172,7 +172,6 @@ h2{
 }
 
 /*CSS para el apartado del calendario, dropdown y boton "Actividades FIC"*/
-/*La imagen de fondo*/
 .container-calendario{
   background-color: white;
   width: 100%;
@@ -231,7 +230,7 @@ hr{
   text-decoration: none;
 }
 
-/*Boton que dice ver más*/
+/*Boton Dropdown (ver más)*/
 .botonDropdown{
   position: absolute;
   font-family: "Open Sans", sans-serif;
@@ -245,7 +244,7 @@ hr{
   width: 50% !important;
 }
 
-/*Las opciones del boton ver más*/
+/*Las opciones del dropdown*/
 .opciones{
   font-family: "Open Sans", sans-serif;
   padding-left: 5px !important;
@@ -264,7 +263,7 @@ hr{
   color: #545353 !important;
 }
 
-/*El boton que linkea a la página de ingenieria*/
+/*El boton que linkea a la página de ingenieria, se debe encontrar al lado del dropdown*/
 .actividades-fic{
   color: #00adda !important;
   background-color: white !important;
